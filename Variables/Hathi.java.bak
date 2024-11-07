@@ -1,0 +1,13 @@
+class Hathi
+{
+	int a=10;
+	static void temp(Hathi H)
+	{
+		System.out.println(H.a);
+	}
+	public static void main(String[] args) 
+	{
+		Hathi H= new Hathi();
+		temp(H);
+	}
+}

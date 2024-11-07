@@ -1,0 +1,17 @@
+class Factorial
+{
+static void fact(int a , int fact)
+{
+
+for(int i=a; i>=1;i--)
+{
+fact=fact*i;
+
+}
+System.out.println(fact);
+}
+public static void main(String[] args)
+{
+fact(6,1);
+}
+}

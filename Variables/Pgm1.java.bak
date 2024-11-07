@@ -1,0 +1,16 @@
+class Pgm1 
+{
+	String emp_name;
+	String emp_sal;
+	Pgm1(String name,double sal)
+	{
+		emp_name=name;
+		emp_sal=sal;
+	}
+	public static void main(String[] args) 
+	{
+		Pgm1 P= new Pgm1("from abhishek","I love you astha");
+		System.out.println(P.emp_name);
+		System.out.println(P.emp_sal);
+	}
+}
